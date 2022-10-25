@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/emergency"
+        android:title="EMERGENCY"
+        android:icon="@drawable/ic_warning"/>
+        <item
+            android:id="@+id/kit"
+            android:title="KIT"
+            android:icon="@drawable/ic_kit"/>
+            <item
+                android:id="@+id/profile"
+                android:title="HELP"
+                android:icon="@drawable/ic_baseline_help_center_24"/>
+
+</menu>

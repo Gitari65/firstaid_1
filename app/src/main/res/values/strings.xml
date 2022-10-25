@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">FirstAid</string>
+
+
+    <string name="sign_in">signin</string>
+
+    <string name="Already_have_an_account">Already have an account ?<font color="#170D71">Login</font> </string>
+    <string name="Dont_have_an_account">Dont have an Account?<font color="#170D71">Register</font> </string>
+    <string name="title_activity_emergency">EmergencyActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Emergencies">Emergencies</string>
+    <string-array name="Emergency">
+        <item>Epileptic</item>
+        <item>choking</item>
+        <item>snake bite</item>
+        <item>Faint</item>
+        <item>Cut wound</item>
+        <item>Road Accident</item>
+        <item>Nose bleeding</item>
+        <item>A Boil</item>
+        <item>Cardiac arrest</item>
+        <item> Asthma attack</item>
+    </string-array>
+
+    <string name="kitlist">KIT CONTENTS \n
+        <ul>
+        <li>A copy of First Aid Leaflet </li>\n
+        <li>Absorbent sterilized Cotton wool and/or gauze squares for cleaning wounds </li>\n
+        <li>Eye pads </li>\n
+        <li>Assorted adhesive sizes strips for wound dressing</li>\n
+        <li>Antiseptic solution for cleaning wounds </li>\n
+        <li>Triangular bandages for slings, support/ padding</li> \n
+        <li>Crepe bandages </li>\n
+        <li>Safety clips to secure bandages and slings </li>\n
+        <li>A pair of shear scissors </li>\n
+        <li>Sterile and non-sterile gloves </li>\n
+        <li>Thermal blanket </li>\n
+        <li>Resuscitation masks </li>\n
+        <li>Torch to use at night </li>\n
+        <li>Assorted sterile and un-medicated dressings to control bleeding and to cover wound.</li> \n
+        <li>A receptacle for holding dressings and instruments </li>\n
+        <li>Small dressing bowls for holding antiseptics </li>\n
+
+
+         </ul></string>
+
+    <string name="aboutus">\n
+    <ul>
+        <li>Creation of this app is all  by the idea of helping others during an emergency and able to learn the first aid skills \n\n Our mission is to educate many across the world with resourceful information.\n\n</li>
+        <li>Developer: <b>YOU*M SOFTWARES \n\n</b></li><li>YouM-Soft
+Developing Simple And Easy Solutions</li>
+        </ul>
+    </string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    //Stand behind the person who's choking.
+    Place your arms around their waist and bend them forward.
+    Clench 1 fist and place it right above their belly button.
+    Put the other hand on top of your fist and pull sharply inwards and upwards.
+    Repeat this movement up to 5 times.
+    If the person's airway is still blocked after trying back blows and abdominal thrusts, get help
+    immediately:
+
+
+</resources>
+

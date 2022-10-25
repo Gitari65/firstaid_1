@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    android:orientation= "vertical"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="Emergency"
+            android:layout_marginLeft="10dp"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="FIRST AID PROCEDURES"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/fainting_emergency"
+            android:text="Fainting"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/nosebleeding_emergency"
+            android:text="Nose Bleeding"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/fracture_emergency"
+            android:text="Fracture"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/choking_emergency"
+            android:text="Choking"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/hearatattack_emergency"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:text="Cardiac Arrest"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/cutwound_emergency"
+            android:text="Cut Wound"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/asthma_emergency"
+            android:text="Asthma Attack"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/burn_emergency"
+            android:text="Burns"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/roadaccident_emergency"
+            android:text="Road Accident"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/epilepsy_emergency"
+            android:text="Epileptic siezure"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_border"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:id="@+id/snakebite_emergency"
+            android:text="Snake Bite"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:background="#F44336"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="51dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="300dp"
+                android:background="@drawable/backarroww"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/roboto"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2066495785020114/6489749512">
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/roboto"
+                android:text="ABOUT US"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.427"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView17" />
+
+            <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent" android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/instagramicon"
+        android:fontFamily="@font/roboto"
+        android:text="you.m_softwares"
+        android:textColor="#3F51B5"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/youme_logo1" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

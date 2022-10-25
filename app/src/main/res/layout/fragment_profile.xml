@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F44336"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="HELP"
+        android:textColor="#3F51B5"
+        android:textSize="27sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Call Ambulance"
+        android:fontFamily="@font/roboto"/>
+
+    <Button
+        android:id="@+id/text_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="MakePhoneCall"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/icon_call2"
+        android:fontFamily="@font/roboto"
+        android:text="999"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button_findhelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="onClick"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Find Nearby hospitals"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_about"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:fontFamily="@font/roboto"
+        android:text="About us"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/healthinsurance"/>
+
+
+</LinearLayout>
